@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>BRAXTON</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Syncopate:wght@700&family=Space+Mono:wght@400;700&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="/src/style.css" />
+</head>
+<body>
+
+  <!-- Three.js canvas renders here (injected by main.js, position: fixed) -->
+
+  <!-- Hero text lives at body level so its z-index: 3 applies to the
+       root stacking context, above the Three.js canvas (z-index: 2) -->
+  <div class="hero-text">
+    <div class="hero-line" id="hero-line-1"><span>BRAXTON</span></div>
+    <div class="hero-line" id="hero-line-2"><span>ELMER</span></div>
+    <div class="hero-role">full-stack engineer · iot · devops</div>
+  </div>
+
+  <!-- SECTION 1: HERO -->
+  <section id="hero">
+    <div class="scroll-hint">[ SCROLL ]</div>
+  </section>
+
+  <!-- SECTION 2: PROJECTS -->
+  <section id="projects">
+    <div class="section-label">
+      <span class="label-line"></span>
+      <span class="label-text">[ WORK ]</span>
+      <span class="label-line"></span>
+    </div>
+
+
+    <div class="project-row" data-href="#">
+      <span class="proj-num">01</span>
+      <span class="proj-name">Alfie ITSM Software</span>
+      <span class="proj-stack">Next.js · SQL Server</span>
+      <span class="proj-year">2025</span>
+      <span class="proj-arrow">→</span>
+    </div>
+
+    <div class="project-row" data-href="#">
+      <span class="proj-num">02</span>
+      <span class="proj-name">Paimom</span>
+      <span class="proj-stack">Node.js · Discord API</span>
+      <span class="proj-year">2025</span>
+      <span class="proj-arrow">→</span>
+    </div>
+
+   <div class="project-row" data-href="#">
+      <span class="proj-num">03</span>
+      <span class="proj-name">ALFIE HRM</span>
+      <span class="proj-stack">Next.js · GoLang · PostgreSQL</span>
+      <span class="proj-year">2026</span>
+      <span class="proj-arrow">→</span>
+    </div>
+
+    <div class="project-row" data-href="#">
+      <span class="proj-num">04</span>
+      <span class="proj-name">FOLIA</span>
+      <span class="proj-stack">Next.js · FastAPI · Prophet</span>
+      <span class="proj-year">2026</span>
+      <span class="proj-arrow">→</span>
+    </div>
+
+    <div class="project-row" data-href="#">
+      <span class="proj-num">05</span>
+      <span class="proj-name">LUNARIS</span>
+      <span class="proj-stack">YOLOv8 · SAHI · Python</span>
+      <span class="proj-year">2026</span>
+      <span class="proj-arrow">→</span>
+    </div>
+
+  </section>
+
+  <!-- SECTION 3: LINKS -->
+  <section id="links">
+    <div class="links-inner">
+      <hr class="links-rule" />
+      <div class="links-row">
+        <a href="https://github.com/BraxtonElmer" target="_blank" rel="noopener">GITHUB</a>
+        <a href="https://linkedin.com/in/BraxtonElmer" target="_blank" rel="noopener">LINKEDIN</a>
+        <a href="mailto:mail@braxtonelmer.com" >EMAIL</a>
+      </div>
+    </div>
+  </section>
+
+  <!-- SECTION 4: FOOTER -->
+  <footer id="footer">
+    <span>BRAXTON ELMER © 2026</span>
+  </footer>
+
+  <script type="module" src="/src/main.js"></script>
+</body>
+</html>
